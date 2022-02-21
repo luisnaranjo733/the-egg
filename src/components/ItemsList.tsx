@@ -6,10 +6,6 @@ import ItemPreview from "./ItemPreview";
 const ItemsList = () => {
 	const { items, isError, isSuccess } = useItems();
 
-    if (isSuccess) {
-        console.log(items)
-    }
-
 	return (
 		<>
 			{isError && <Alert severity="error">Error loading items.</Alert>}

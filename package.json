@@ -5,19 +5,21 @@
   "dependencies": {
     "@emotion/react": "latest",
     "@emotion/styled": "latest",
-    "@ethersproject/providers": "^5.5.3",
+    "@mui/icons-material": "^5.3.0",
     "@mui/material": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
-    "axios": "^0.26.0",
-    "ethers": "^5.5.4",
+    "axios": "^0.25.0",
+    "bnc-notify": "^1.9.2",
+    "bnc-onboard": "^1.37.1",
+    "ethers": "^5.5.3",
     "formik": "^2.2.9",
     "lodash": "^4.17.21",
     "react": "latest",
     "react-dom": "latest",
-    "react-query": "^3.34.16",
-    "react-router-dom": "6",
-    "react-scripts": "^4.0.3",
+    "react-query": "^3.34.8",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "4.0.3",
     "typescript": "latest",
     "yup": "^0.32.11"
   },
@@ -26,6 +28,12 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
     "production": [
@@ -38,5 +46,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.178"
   }
 }
